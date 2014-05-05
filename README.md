@@ -1,8 +1,7 @@
-C# API for coinmkt.com
+### C# API for coinmkt.com
 =======================
 
-Example
-======================
+### Example
 
 ```
 var apiClient = new CoinMKTClient();
