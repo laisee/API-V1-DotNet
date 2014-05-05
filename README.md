@@ -4,6 +4,7 @@ C# API for coinmkt.com
 Example
 ======================
 
+```
 var apiClient = new CoinMKTClient();
 
 apiClient.Currency.GetCurrencies();
@@ -17,3 +18,4 @@ apiClient.Trades.Get("BTC", "USD", TradeStatus.Completed, TradeLevel.PlayMoney);
 apiClient.Orders.Get("BTC", "USD", TradeStatus.Open, TradeLevel.PlayMoney);
 
 apiClient.Session.SignOff();
+```
