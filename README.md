@@ -18,3 +18,5 @@ apiClient.Orders.Get("BTC", "USD", TradeStatus.Open, TradeLevel.PlayMoney);
 
 apiClient.Session.SignOff();
 ```
+
+More details [https://api.coinmkt.com/Help](https://api.coinmkt.com/Help)
