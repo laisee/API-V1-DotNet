@@ -1,4 +1,2 @@
-net-API
-=======
-
-.net-API
+C# API for coinmkt.com
+=======================
