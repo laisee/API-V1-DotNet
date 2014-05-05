@@ -13,8 +13,11 @@ apiClient.Ticker.GetTicker("BTC", "USD", TradeLevel.PlayMoney);
 apiClient.TradeBook.Get("BTC", "USD", TradeLevel.RealMoney, 5);
 
 apiClient.Session.SignIn(TradeLevel.PlayMoney);
+
 apiClient.Trades.Get("BTC", "USD", TradeStatus.Completed, TradeLevel.PlayMoney);
 apiClient.Orders.Get("BTC", "USD", TradeStatus.Open, TradeLevel.PlayMoney);
+
+// and many other, please look at CoinMKT.ApiConsole project
 
 apiClient.Session.SignOff();
 ```
